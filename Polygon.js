@@ -1,7 +1,6 @@
 class Polygon {
-    constructor(x, y, sides, radius) {
-        this.body = Bodies.polygon(x, y, sides, radius);
-        this.sides = sides;
+    constructor(x, y, radius) {
+        this.body = Bodies.circle(x, y, radius);
         this.radius = radius;
         this.image = loadImage("hexagon.png");
         World.add(world, this.body);
