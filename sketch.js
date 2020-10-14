@@ -57,7 +57,7 @@ function setup() {
   block9 = new PinkBox(970, 190, 40, 50);
 
   //polygon
-  hexagon = new Polygon(180, 380, 6, 30);
+  hexagon = new Polygon(180, 380, 30);
 
   //slingShot
   slingShot = new SlingShot(hexagon.body, {x:180, y:380});
